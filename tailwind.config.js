@@ -7,10 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        // 사용하려는 클래스 이름: '폰트 이름'
+        'regular' :['regular'],
+        'bold' :['bold'],
+        'cat' :['cat'],
       },
     },
   },
