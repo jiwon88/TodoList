@@ -4,7 +4,7 @@ import { FaDumbbell } from "react-icons/fa6";
 
 export default function Length(){
     return(
-        <div className="bg-gray-50 m-20 mt-10 w-1/5 h-full rounded-xl border-2 border-blue-200">
+        <div className="bg-gray-50 m-20 mt-10 w-1/5 h-full rounded-xl border-4 border-blue-200">
             <div className="p-6 pt-14">
                 <div className="flex flex-cols gap-2 text-xl text-blue-600 font-semibold">
                     <span className="p-0.5"><AiFillPlusCircle /></span>작업추가
